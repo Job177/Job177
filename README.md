@@ -1,4 +1,5 @@
 - 👋 Hi, I’m Joseph West
+- 🌎 I'm based on Addis Abeba
 - 👀 I’m interested in Web design
 - 🌱 I’m currently learning Javascript and react
 - 📫 You can contact me at josewestern111@gmail.com
