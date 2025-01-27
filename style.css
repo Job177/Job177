@@ -1,0 +1,102 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: linear-gradient(to right, rgb(0, 0, 95), 
+     rgb(118, 55, 0), rgb(103, 0, 0));
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2rem 0;
+    color: lightgoldenrodyellow;
+}
+.input{
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+}
+.input input{
+    padding: 13px;
+    width: 75%;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+.input button{
+    padding: 15px 25px;
+    background-color: brown;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.input button:hover{
+    background-color: white;
+    color: brown;
+}
+.to-do-items{
+    width: 600px;
+    margin: 5rem auto;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    color: darkslategrey;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: aliceblue;
+    transition: 0.5s ease-in-out;
+}
+.item:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.item i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .to-do-items{
+        width: 100%;
+    }
+    .item{
+        width: 70%;
+        margin: 1rem auto;
+    }
+}
+@media (max-width: 425px) {
+    .input{
+        width: 200px;
+    }
+    .input input{
+        width: 57%;
+        padding: 4px;
+    }
+    .input button{
+        padding: 10px;
+    }
+    .item{
+        width: 70%;
+        margin: 1rem auto;
+    }
+}
+@media (max-width: 375px) {
+    .item{
+        font-size: 0.7rem;
+    }
+}
